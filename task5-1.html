@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>个人主页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1 maximum-scale=1" charset="GB2312">
+    <style type="text/css">
+        * { font-family:黑体}
+        html,body {
+            font-size:62.5%;
+            width: 100%;
+            margin: 0;
+            padding:0;
+            min-width: 320px;font-family:黑体
+        }
+        #main {width:100%;margin:0;height:100%}
+        #header {
+            width: 100%;
+            height: 2rem;
+            margin:0;
+            padding:0.7rem 0;
+            color: #ffffff;
+            background-color: rgb(95,192,205);
+            font-size: 1.8rem;
+        }
+        .back {height:2rem;
+            float: left;
+            margin-left: 1.5rem}
+        .myhome {line-height: 2rem;margin: 0 30%;text-align: center}
+        #name {
+            width: 100%;
+            height: 14.5rem;
+            background-image: url(task5-1.png);
+            -webkit-background-size:cover;
+            background-size:cover;
+            color: #ffffff;
+        }
+        .womenicon {
+            width: 7.5rem;
+            padding:3.5rem 1.5rem;
+            float:left;  }
+        .address {
+            float:left;
+            padding:5.2rem 0.2rem;
+            font-size: 1.6rem;
+        }
+        .address span {padding-right:1.3rem;}
+        .address p {
+            font-size: 1.1rem;
+            text-align: right}
+        .address img {
+            height:1.1rem;float:left}
+        .img_2 {
+            width:7.4rem ;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            border-radius: 50%;}
+        #technical {
+            width: 100%;height:auto;
+        }
+        .cell_1 {
+            height:1.5rem;
+            margin: 0 ;
+            padding:1.5rem;
+            border-bottom:solid 1px rgb(225,229,231) ;
+        }
+        .cell_1 span {
+            border-left: solid 3px rgb(95,192,205);
+            font-size:1.7rem;
+            padding: 0 1.5rem;}
+        .cell_2 {
+            height: 1.5rem;
+            margin-left:1.3rem;
+            padding: 1.5rem 0.8rem;
+            border-bottom:solid 1px rgb(225,229,231) ;}
+        span.one {
+            border-right:solid 1px rgb(225,229,231);
+            font-size:1.5rem;
+            padding-right:1rem;
+            color: #000000; }
+        span.two {font-size:1.5rem}
+        .img_1 {
+            height:1.2rem;
+            margin-right:0.5rem;
+            margin-left:1rem;}
+        .cell_left {
+            margin-left:1.3rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            padding-left: 0.8rem;
+            height: 1.5rem;
+            width:100px;float:left;
+        }
+        span.three {
+            padding-left:1.1rem;
+            font-size:1.5rem;
+            padding-right:1.5rem;
+            border-right:solid 1px rgb(225,229,231);
+            color:rgb(153,153,153)}
+        span.four {
+            font-size:1.5rem;
+            padding:1.5rem}
+        span.five {
+            font-size:1.5rem;
+            padding-left: 1.1rem;
+            padding-right: 1.5rem;
+            border-right:solid 1px rgb(225,229,231);
+            color:rgb(153,153,153);}
+        span.six  {font-size:1.4rem}
+        .cell_right {
+            height:2.6rem;
+            position: relative;
+            padding:0.8rem  0.5rem 0.8rem 1.5rem;}
+        .cell_right span {font-size:1.3rem;}
+        .box {height:4.5rem;
+            border-bottom:solid 1px rgb(225,229,231)}
+        #call {vertical-align: middle}
+        #call input {
+            border-radius:8px;
+            width:12rem;height:4rem;
+            font-size:1.6rem;
+            padding:auto 1.2rem ; }
+        .message {width:12rem;
+            float: left;
+            margin-left: 5%;
+            margin-top: 2.5rem }
+        .call {
+            width:12rem;
+            float: right;
+            margin-right: 5%  ;
+            margin-top: 2.5rem;}
+        .left {background-color:#ffffff;
+            border:2px solid rgb(95,192,205); }
+        .right {
+            background-color:rgb(95,192,205);
+            border:2px solid rgb(95,192,205);
+            color:#ffffff}
+    </style>
+</head>
+
+<body>
+<div id="main">
+    <!--header-->
+    <div id="header">
+        <div class="back"><img  src="task5-back.png" height="100% "></div>
+        <div class="myhome">我的主页</div>
+    </div>
+
+    <!--个人信息-->
+    <div id="name">
+        <div class="womenicon">
+            <img class="img_2" src="women_03.png">
+        </div>
+        <div class="address">
+            <span>高素雅</span>51岁
+            <p><img src="taskad.png" >北京.通州.果园</p>
+        </div>
+    </div>
+    <!--技术能力-->
+    <div id="technical">
+        <div class="cell_1">
+            <span>专业技能</span>
+        </div>
+        <div class="cell_2">
+            <span class="one"><img class="img_1" src="task5-1_11.png">住家</span>
+            <span class="two"><img class="img_1" src="task5-1_11.png">不含餐</span>
+        </div>
+        <div class="cell_2">
+            <span class="three">从业年限</span><span class="four">0～3年</span>
+        </div>
+        <div class="cell_2">
+            <span class="three" >工作时间</span><span class="four">全天</span>
+        </div>
+        <div class="cell_2">
+            <span class="three" >服务价格</span><span class="four" style="color: red">25元/小时</span>
+        </div>
+        <div class="box">
+            <div class="cell_left">
+                <span class="five">自我介绍</span>
+            </div>
+            <div class="cell_right">
+                <span>可以洗衣、做饭照顾老人。在护工方面有5年的经验，经验丰富。</span>
+            </div>
+        </div >
+    </div>
+
+    <!--联系-->
+    <div id="call">
+        <div class="aab">
+            <div  class="message">
+                <form>
+                    <input class="left" type="submit" name="message" value="留言">
+                </form> </div>
+            <div class="call">
+                <form>
+                    <input class="right" type="submit" name="call" value="电话联系" >
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
