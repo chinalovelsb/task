@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>找雇主 找护工</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="gb2312">
+    <style type="text/css">
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-size: 62.5%;
+            min-width: 320px;
+            font-family: 黑体;
+        }
+
+        #page {
+            margin: 0;
+            padding: 0
+        }
+
+        #header {
+            height: auto;
+            margin: 0;
+            background-color: rgb(95, 192, 205)
+        }
+
+        .header_box {
+            height: 4rem;
+            padding-left: 4.5rem;
+            text-align: center;
+
+        }
+
+        img {
+            height: 100%
+        }
+
+        .middle {
+            height: auto;
+            width: 130px;
+            margin: 0.4rem auto;
+            background-color: #55a8b3;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 1.5rem;
+            line-height: 3.1rem;
+        }
+
+        .middle_white {
+            background-color: #ffffff;
+            float: right;
+            border-radius: 5px;
+            padding: 0.8rem;
+            line-height: 1.5rem;
+            color: #5fc0cd
+        }
+
+        #select {
+            width: 100%;
+            height: 3.6rem;
+            margin: 0;
+            padding: 0;
+            font-size: 1.3rem;
+            border-bottom: solid 1px #e1e5e7;
+            text-align: center;
+        }
+
+        .select_1 {
+            font-size: 1.5rem;
+            color: #999;
+            line-height: 3.6rem
+        }
+
+        .location {
+            height: 2rem;
+            padding: 1rem 1.3rem;
+            float: right;
+        }
+
+        .mark {
+            height: 0.5rem;
+            float: right;
+            margin: 1rem 0.5rem 2rem 0
+        }
+
+        .cell {
+            width: 33%;
+            height: 3.6rem;
+            float: left;
+
+        }
+
+        #show {
+            position: absolute;
+            top: 7.6rem;
+            width: 100%;
+            bottom: 5rem;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        #navigation {
+            width: 100%;
+            height: 5rem;
+            background-color: #f8fafb;
+            border-top: solid 1px #e1e5e7;
+            bottom: 0;
+            position: absolute;
+        }
+
+        p {
+            text-align: center;;
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .homepage {
+            color: #5fc0cd;
+            height: 4rem;
+            width: 2.5rem;
+            float: left;
+            margin-top: 0.5rem;
+            margin-left: 23.6%
+        }
+
+        .my {
+            color: #999;
+            height: 4rem;
+            width: 2.5rem;
+            float: right;
+            margin-top: 0.5rem;
+            margin-right: 23.6%
+        }
+
+        .edit {
+            width: 2rem;
+            height: 2rem;
+            background-color: #5fc0cd;
+            border-radius: 50%;
+            margin: auto;
+            padding: 1.45rem;
+        }
+
+        .set {
+            width: 100%;
+            height: auto
+        }
+
+        span {
+            margin: 0 0.8rem;
+            color: #fff
+        }
+
+        .icon {
+            width: 2rem;
+            height: 2rem;
+        }
+        a:link {color:#f8fafb;}    /* 未被访问的链接 */
+        a:visited {color:#f8fafb;} /* 已被访问的链接 */
+        a:hover {color:#fff;}   /* 鼠标指针移动到链接上 */
+        a:active {color:#5fc0cd;}  /* 正在被点击的链接 */
+    </style>
+</head>
+<body>
+<div id="page">
+    <!-----------------------------------header------------------------------>
+    <div id="header">
+        <div class="header_box">
+            <div class="location">
+                <img src="location.png">
+            </div>
+
+            <div class="middle">
+                <span>找雇主</span>
+                <div class="middle_white">找护工</div>
+            </div>
+
+        </div>
+    </div>
+    <!-----------------------------------筛选栏目------------------------------>
+    <div id="select">
+        <div class="cell">
+            <a class="select_1">所在</a>
+            <div class="mark"><img src="down.png"></div>
+        </div>
+        <img src="select_03.png" style="float: left">
+        <div class="cell">
+            <a class="select_1">食宿 </a>
+            <div class="mark"><img src="down.png"></div>
+        </div>
+        <img src="select_03.png" style="float: left">
+        <div class="cell">
+            <a class="select_1">病人情况</a>
+            <div class="mark"><img src="down.png"></div>
+        </div>
+    </div>
+
+
+    <!-----------------------------------内容页------------------------------>
+    <div id="show">
+        <iframe src="list.html"></iframe>
+    </div>
+
+    <!-----------------------------------导航栏------------------------------>
+    <div id="navigation">
+        <div class="homepage">
+            <img class="set" src="home_13.png">
+            <p>首页</p>
+        </div>
+        <a href="task5-1.html"><div class="my" >
+            <img class="set" src="my_13.png">
+            <p>我的</p></div></a>
+        <div class="edit">
+            <div class="icon"><img class="set" src="navigation1_13.png"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
