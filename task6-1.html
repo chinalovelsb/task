@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页</title>
+    <meta name="viewport" content=" width= device-width, initial-scale= 1"/>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            list-style: none;
+            text-align: center;
+
+        }
+
+        body {
+            height: 100%;
+            font-size: 62.5%;
+            background-color: #f0f0f0;
+            font-family: "微软雅黑 Light";
+        }
+
+        #menu-1, .btn-back, #next, .point-white, .point-blue {
+            background-image: url('images/icon-sprite.png');
+        }
+
+        header {
+            background-color: #29bde0;
+            height: 14vw;
+        }
+
+        #main {
+            width: 89%;
+            padding: 0 5.5%;
+        }
+
+        #topnav {
+            height: 6.25vw;
+            margin: 4vw 0;
+            padding: 6vw 0;
+            border: 1px solid #c9c9c9;
+            background-color: #fff;
+            text-align: center;
+            line-height: 6.25vw;
+            font-size: 5vw;
+            color: #9a9a9a;
+        }
+
+        #topnav span {
+            display: inline-block;
+            font-size: 32px;
+            line-height: 40px
+        }
+
+        #list {
+            background-color: #fff;
+            border: 1px solid #c9c9c9;
+        }
+
+        #list p {
+            border-bottom: 1px solid #fdd793;
+            font-size: 5.5vw;
+            color: #fbb435;
+            padding: 4.375vw 0;
+        }
+
+        #list li.btn {
+            background-color: #69d1e9;
+            color: #fff;
+            width: 72.5vw;
+            margin: 4.5vw auto;
+            height: 21vw;
+            border: 1px solid #a7e4f2;
+        }
+
+        #list span {
+            font-size: 5vw;
+            color: #fff;
+            line-height: 21vw;
+        }
+
+        #list li.mag {
+            font-size: 3.6vw;
+            color: #787878
+        }
+
+        #tab {
+            height: 2.8vw;
+            margin: 1.23vw 0;
+        }
+
+        #menu-1 {
+            width: 5.3vw;
+            height: 4.2vw;
+            margin: 4.35vw 3.3vw;
+            float: left;
+            background-position: left 20.7%;
+            background-size: 150%
+        }
+
+        .btn-back {
+            float: right;
+            width: 3.75vw;
+            height: 6.25vw;
+            display: inline-block;
+            margin: 0 2.19vw;
+            background-position: left -0px;
+            background-size: 215%
+
+        }
+
+        #next {
+            position: absolute;
+            top: 103vw;
+            right: 7vw;
+            width: 4.4vw;
+            height: 8.5vw;
+            background-position: left 9%;
+            background-size: 180%
+        }
+
+        .point-blue, .point-white {
+            width: 2.8vw;
+            height: 2.8vw;
+            display: inline-block;
+            margin: 0 0.2vw;
+        }
+
+        .point-blue {
+            background-position: left 26%;
+            background-size: 280%;
+        }
+
+        .point-white {
+            background-position: left 29.7%;
+            background-size: 280%;
+        }
+
+    </style>
+
+</head>
+<body>
+<header>
+    <div id="menu-1"></div>
+</header>
+<div id="main">
+    <div id="next"></div>
+    <div id="topnav">
+        <a>&nbsp&nbsp&nbsp&nbsp&nbsp上次游戏:&nbsp&nbsp捉鬼猜词版</a>
+        <div class="btn-back"></div>
+
+
+    </div>
+    <div id="list">
+        <ul><p>捉鬼游戏</p>
+            <li class="btn">
+                <span>简化版</span>
+            </li>
+
+            <li class="mag">有1133个用户正在玩此游戏</li>
+            <li class="btn">
+                <span>猜词版</span>
+            </li>
+
+            <li class="mag">有1133个用户正在玩此游戏</li>
+            <li class="btn">
+                <span>白痴版</span>
+            </li>
+
+            <li class="mag">有1133个用户正在玩此游戏</li>
+
+        </ul>
+        <div id="tab">
+            <div class="point-blue"></div>
+            <div class="point-white"></div>
+            <div class="point-white"></div>
+            <div class="point-white"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
