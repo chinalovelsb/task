@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-family: "微软雅黑 Light";
+    background-repeat: no-repeat;
+
+}
+
+body, html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+#main {
+    width: 100%;
+    background-color: #29bde0;position: ;
+
+}
+
+#vote-carte, .btn-back, #next, .point-white, .point-blue, #close, #player, #home, #warning {
+    background-image: url('images/icon-sprite.png');
+}
+
+header {
+    background-color: #29bde0;
+    height: 7vw;
+    padding: 3.5vw 0;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 100%
+
+}
+
+header p {
+    font-size: 5vw;
+    color: #fff;
+    display: inline-block;
+}
+
+/*******首页******/
+#wrapper {
+    width: 89%;
+    padding: 6VW 5.5%;
+    background-color: #f0f0f0;
+}
+
+#topnav {
+    height: 6.25vw;
+    margin: 0 0 4vw 0;
+    padding: 6vw 0;
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+    text-align: center;
+    line-height: 6.25vw;
+    font-size: 5vw;
+    color: #9a9a9a;
+}
+
+#topnav span {
+    display: inline-block;
+    font-size: 32px;
+    line-height: 40px
+}
+
+#list {
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+}
+
+#list p {
+    border-bottom: 1px solid #fdd793;
+    font-size: 5.5vw;
+    color: #fbb435;
+    padding: 4.375vw 0;
+}
+
+#list li.btn {
+    background-color: #69d1e9;
+    color: #fff;
+    width: 72.5vw;
+    margin: 4.5vw auto;
+    height: 21vw;
+    border: 1px solid #a7e4f2;
+}
+
+#list span {
+    font-size: 5vw;
+    color: #fff;
+    line-height: 21vw;
+}
+
+#list li.mag {
+    font-size: 3.6vw;
+    color: #787878
+}
+
+#tab {
+    height: 2.8vw;
+    margin: 1.23vw 0;
+}
+
+#homepage-carte {
+    background-position: left 20.7%;
+    background-size: 150%
+}
+
+.btn-back {
+    float: right;
+    width: 3.75vw;
+    height: 6.25vw;
+    display: inline-block;
+    margin: 0 2.19vw;
+    background-position: left -0px;
+    background-size: 217%
+
+}
+
+#next {
+    position: absolute;
+    top: 106vw;
+    right: 7vw;
+    width: 4.4vw;
+    height: 8.5vw;
+    background-position: left 9%;
+    background-size: 180%
+}
+
+.point-blue, .point-white {
+    width: 2.8vw;
+    height: 2.8vw;
+    display: inline-block;
+    margin: 0 0.2vw;
+}
+
+.point-blue {
+    background-position: left 26%;
+    background-size: 280%;
+}
+
+.point-white {
+    background-position: left 29.7%;
+    background-size: 280%;
+}
+
+/**投票*************************************/
+
+#vote-carte {
+    width: 5.3vw;
+    height: 6.25vw;
+    margin: 0 3.3vw;
+    float: left;
+    background-size: 135%;
+    background-position: left 71.1%
+}
+
+#close {
+    width: 5.3vw;
+    height: 6.1vw;
+    margin: 0 4vw;
+    float: right;
+    background-size: 140%;
+    background-position: left 62.6%
+}
+
+#container {
+    background-color: #29bde0;
+    height: 100%
+}
+
+#msg {
+    height: 12.5vw;
+    background-color: #b9e9f5;
+    text-align: right;
+
+}
+
+#msg p {
+    font-size: 3.75vw;
+    line-height: 13.3vw;
+    margin-left: 7.18vw;
+    display: inline-block;
+}
+
+#player {
+    width: 7.82vw;
+    height: 7.82vw;
+    margin: 2.0vw 3.3vw;
+
+    display: inline-block;
+    background-position: left 81.5%;
+    background-size: 100%;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-top: 2vw solid #b9e9f5;
+    border-left: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    margin-left: 10.9vw;
+
+}
+
+#warn {
+    height: 4.5vw;
+    color: #fff;
+    margin: 0 10.9vw;
+    text-align: left;
+    font-size: 3.43vw;
+
+}
+
+iframe {
+    border: none;
+    left: 0;
+    width: 100%;
+    height: 120vw;
+    display: block;
+    position: absolute;
+    top: 26.5vw;
+    bottom: 30vw;
+    ;
+}
+
+footer {
+    height: 30vw;
+    background-color: #29bde0;
+    margin: 0 6.56vw;
+    border-top: 1px solid #fff;
+    width: auto;
+
+}
+
+footer input {
+    width: 76.56vw;
+    border: none;
+    background-color: #fbb435;
+    height: 13.7vw;
+    color: #fff;
+    font-size: 5.8vw;
+    margin: 6.56vw 0;
+}
+
+.footerbox {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.tell {
+    display: inline-block;
+    float: left
+}
+
+#msgbox {
+    width: 100%;
+    position: absolute;
+    top: 14vw;
+    z-index: 3;
+    background-color: rgba(41, 189, 224, 0.7);
+}
+
+/*************结果****************/
+#home {
+    height: 6.56vw;
+    width: 7vw;
+    float: left;
+    background-size: 98%;
+    background-position: left 92%
+}
+
+#warning {
+    height: 6.2vw;
+    width: 7vw;
+    float: right;
+    background-size: 111%;
+    background-position: left 100%
+}
+
+#logo {
+    height: 31.875vw;
+    border-top: 1px solid #74d4eb;
+    padding: 3.75vw 0;
+}
+
+#logo img {
+    height: 100%
+}
+
+#victory {
+    width: 76vw;
+    margin: 0 12vw;
+}
+
+p.yellowfont {
+    color: #ffc865;
+    font-size: 4.68vw;
+    text-align: justify;
+}
+
+#gameplayer {
+    text-align: left;
+    margin-top: 6.7vw;
+}
+
+#gameplayer li {
+    display: inline;
+    margin: auto 8vw auto 0;
+}
+
+#gameplayer p {
+    color: #fff;
+    font-size: 3.43vw;
+    display: inline-block;
+}
+
+.detailbox {
+    height: 31.25vw;
+    margin-top: 2vw;
+}
+
+.detailone {
+    height: 27.18vw;
+    border-top: 2px solid #dddddd;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    background-color: white;
+    position: relative;
+    bottom: 25vw;
+    padding: 0 12vw;
+
+}
+
+.detailone ul, li {
+    text-align: left
+}
+
+.big {
+    font-size: 5vw;
+}
+
+li.small {
+    font-size: 3.5vw;
+    color: #a6a6a6
+}
+
+.detailone p {
+    display: inline-block;
+    float: right;
+    font-size: 2vw;
+    color: #a6a6a6;
+    margin-right: 10vw;
+    margin-top: 1.5vw;
+}
+
+.detailtwo {
+    height: 27.18vw;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+    width: 96.875vw
+}
+
+#bottomnav {
+    height: 20.16vw;
+    background-color: rgba(153, 223, 240, 0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+#playagain, #share {
+    width: 42.18vw;
+    height: 13.4vw;
+    border-radius: 5px;
+    border: none;
+
+    color: #fff;
+    font-size: 5.625VW
+}
+
+#playagain {
+    background-color: #f66f6f;
+    margin-top: 3.75vw;
+    margin-left: 3.75vw;
+    float: left;
+}
+
+#share {
+    background-color: #fb8435;
+    float: right;
+    margin-right: 3.75vw;
+    margin-top: 3.75vw;
+
+}
+
+.gameover {
+    position: absolute;
+    height: 100%;
+    top: 14vw;
+    bottom: 0
+}
+
+a:link {
+    color: red
+}
+
+a:visited {
+    color: yellow
+}
+
+a:hover {
+    color: white
+}
+
+a:active {
+    color: red
+}
