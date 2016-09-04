@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑"
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+main, footer {
+    width: 1920px
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    display: inline;
+}
+
+main {
+    width: 1200px;
+    height: 1042px;
+    margin: 0 360px;
+    overflow: hidden;
+}
+
+header {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 360px
+}
+
+nav, footer {
+    background-color: #f9f9f9;
+}
+
+header, #copyright {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+
+nav {
+    width: 1200px;
+    height: 100px;
+    padding: 0 360px;
+}
+
+nav li {
+    height: 47px;
+    line-height: 47px;
+    padding: 0 17px;
+    margin-left: 60px;
+    float: right;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #e6e6e6;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.3s
+}
+
+.loginbar {
+    width: 156px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.login_btn1, .login_btn2 {
+    -webkit-flex: 1;
+    flex: 1;
+    transition: 1s
+}
+
+.wall {
+    height: 40px;
+    width: 1px;
+    background-color: #fff;
+}
+
+/*
+ .selectbox {width:127px;height:37px;background: url("images/002.png")no-repeat;
+ background-position:99px center}
+ /*
+.overflow{ width:107px;height:40px;overflow: hidden}
+*/
+
+select {
+    width: 127px;
+    height: 37px;
+    border: 1px solid #e8e8e8;
+    color: #999;
+    background: url("images/002.png") no-repeat scroll transparent 99px center;
+    padding-left: 17px;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -18.5px;
+}
+
+option {
+    color: #999;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+input[type='radio'] {
+    opacity: 0;
+    width: 0
+}
+
+label.radio {
+    background: url("images/check_03.png") no-repeat left 3px;
+    padding-left: 38px;
+}
+
+input[type='radio']:checked + .radio {
+    background: url("images/005.png") no-repeat left 3px;
+}
+
+#guild {
+    height: 195px;
+    width: 100%
+}
+
+#step_bar {
+    height: 142px;
+    float: right;
+    width: 632px;
+}
+
+.step_cell1, .step_cell2, .step_cell3, .step_cell4 {
+    width: 159px;
+    height: 142px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #ccc;
+    margin-left: -2px;
+}
+
+.bar {
+    position: relative;
+    height: 5px;
+    width: 159px;
+    background-color: #ccc;
+    margin-top: 38px;
+    border-radius: 5px;
+    margin-bottom: 23px
+}
+
+.round {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+    background-color: #ccc;
+    color: #fff
+}
+
+#msg {
+    height: 52px;;
+    width: 100%;
+    line-height: 52px;
+    display: table;
+    vertical-align: middle
+}
+
+.point {
+    width: 4px;
+    height: 21px;
+    background-color: #1d7ad9;
+    border-radius: 5px;
+    display: table-cell;
+    float: left;
+    vertical-align: middle;
+    margin-top: 15px
+}
+
+dt {
+    background-color: #f2f2f2;
+    padding-left: 15px;
+    color: #1d7ad9
+}
+
+.h44 {
+    height: 44px;
+    line-height: 44px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.h45 {
+    height: 45px;
+    line-height: 45px;
+}
+
+.next {
+    background-color: #fff;
+    height: 285px;
+    padding: 0;
+    text-align: center
+}
+
+.next_btn {
+    height: 46px;
+    width: 179px;
+    background-color: #e15053;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    margin: 142px 0 97px 0;
+}
+
+dd {
+    background-color: #fbfcff;
+    padding-right: 17px
+}
+
+.h85 {
+    height: 85px;
+    line-height: 85px
+}
+
+.h141 {
+    height: 141px;
+}
+
+.icon_box1, .icon_box2, .icon_box3 {
+    height: 24px;
+    width: 27px;
+    float: left;
+    margin: 10px 0;
+    background: url("images/9sprites.png") no-repeat
+}
+
+.icon_box1 {
+    background-position: left 4px
+}
+
+.icon_box2 {
+    background-position: left -50px
+}
+
+.icon_box3 {
+    background-position: left -76px
+}
+
+dl li:after {
+    content: "";
+    margin-right: 20px
+}
+
+dl li:before {
+    content: "";
+    margin-left: 34px
+}
+
+.box_size input {
+    width: 68px;
+    height: 28px;
+    border: 1px solid #e8e8e8
+}
+
+footer {
+    height: 238px;
+}
+
+#site_info {
+    height: 205px;
+    padding: 0 360px;
+    color: #999
+}
+
+#title {
+    margin-top: 70px;
+    width: 472px;
+    float: left;
+    font-size: 18px;
+}
+
+#us {
+    margin-top: 70px;
+    width: 315px;
+    font-size: 15px;
+    float: left;
+}
+
+#us li {
+    margin-right: 40px;
+    color: #999
+}
+
+#us ul {
+    margin-bottom: 22px
+}
+
+#us a {
+    color: #999
+}
+
+#contact {
+    height: 92px;
+    width: 244px;
+    float: right;
+    margin-top: 57px
+}
+
+#copyright {
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 13px;
+}
+
+.bd {
+    border: 1px solid #e7e7e7
+}
+
+.bd_lr {
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7
+}
+
+.nav_btn_box {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+}
+
+.w127 {
+    width: 127px;
+    position: relative
+}
+
+.mid_141px {
+    height: 141px;
+    line-height: 141px
+}
+
+.mid_line {
+    height: 100%;
+    line-height: 100%
+}
+
+.mid_box {
+    display: table;
+    height: 100%
+}
+
+.mid_box_cell {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.float_l {
+    float: left
+}
+
+.float_r {
+    float: right
+}
+
+.login_btn1:hover {
+    padding: 0 27px;
+    background-color: #fff;
+}
+
+.login_btn1:hover a {
+    color: #000
+}
+
+.login_btn2:hover {
+    padding: 0 27px;
+    background-color: #fff;
+}
+
+.login_btn2:hover a {
+    color: #000
+}
+
+.nav_btn_box li:hover {
+    background-color: #1d7ad9;
+}
+
+.nav_btn_box li:hover a {
+    color: #fff
+}
+
+.step_cell1:hover p {
+    color: orange;
+}
+
+.step_cell1:hover .bar {
+    background-color: orange
+}
+
+.step_cell1:hover .round {
+    background-color: orange
+}
+
+.step_cell2:hover p {
+    color: orange;
+}
+
+.step_cell2:hover .bar {
+    background-color: orange
+}
+
+.step_cell2:hover .round {
+    background-color: orange
+}
+
+.step_cell3:hover p {
+    color: orange;
+}
+
+.step_cell3:hover .bar {
+    background-color: orange
+}
+
+.step_cell3:hover .round {
+    background-color: orange
+}
+
+.step_cell4:hover p {
+    color: orange;
+}
+
+.step_cell4:hover .bar {
+    background-color: orange
+}
+
+.step_cell4:hover .round {
+    background-color: orange
+}
+
+#us li:hover a {
+    color: #1d7ad9
+}

@@ -1,0 +1,114 @@
+#banner {
+    height: 248px;
+    width: 1920px;
+    overflow: hidden
+}
+
+#wrap {
+    padding: 0 360px;
+    width: 1200px;
+    height: 1410px;
+    background-color: #fafafa
+}
+
+#sitemap {
+    height: 80px;
+    line-height: 80px;
+    background-color: #fafafa
+}
+
+#subnav {
+    height: 710px;
+    width: 304px;
+    float: left;
+    box-shadow: 0 1px 10px #e1e1e1;
+}
+
+.title {
+    height: 62px;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 62px
+}
+
+.round {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#subnav li {
+    list-style: none;
+    margin: 30px
+}
+
+.list a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: #29b078
+}
+
+.list {
+    text-align: left;
+    margin-left: 80px;
+    height: 645px;
+}
+
+#content {
+    width: 870px;
+    height: 1100px;
+    box-shadow: 0 1px 10px #e1e1e1;
+    float: right;
+    background-color: white;
+}
+
+.brief {
+    height: 159px;
+    width: 810px;
+    border-bottom: 1px solid #e6e6e6;
+    vertical-align: middle;
+    padding-right: 60px
+}
+
+.detail {
+    height: 945px;
+    width: 750px;
+    padding: 35px 60px
+}
+
+.logobox {
+    width: 240px;
+    height: 159px;
+    text-align: center
+}
+
+#content li {
+    list-style: none;
+    float: left;
+    width: 565px
+}
+
+.font17green {
+    font-size: 17px;
+    color: #29b078
+}
+
+.font15green {
+    font-size: 15px;
+    color: #29b078;
+    font-weight: 500
+}
+
+.font15 {
+    font-size: 15px;
+    color: #999;
+    line-height: 25px;
+    text-indent: 32px
+}
+#subnav li:hover a   {color: orange}
+#subnav li:hover span {background-color: orange}
+.jinengshu {width:110px;height:52px;margin: 24px 360px;float: left;background: url("images/images/jinengshu.png")no-repeat}

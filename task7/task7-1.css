@@ -1,0 +1,413 @@
+
+
+.bannerfirst, footer {
+    width: 1920px
+}
+
+.bannergirst {
+}
+
+
+#wrapper {
+    padding: 160px 357px 0;
+    background-color: #fafafa;
+}
+
+.c1, .c2, .c3 {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin: 8px;
+}
+
+.c1, .c2, .c3, .logoefficiency, .logosocial, .logostandard, .arrow {
+    background: url("image/mysp.png") no-repeat;
+}
+
+.c1 {
+    background-position: left 0
+}
+
+.c2 {
+    background-position: left -29px;
+}
+
+.c3 {
+    background-position: left -58px;
+}
+
+.logoefficiency {
+    background-position: left -137px;
+}
+
+.logosocial {
+    background-position: left -260px;
+}
+
+.logostandard {
+    background-position: left -206px;
+}
+
+.arrow {
+    background-position: left -106px;
+}
+
+.logoefficiency {
+    height: 100%;
+    width: 45px;
+    display: inline-block
+}
+
+.logosocial {
+    height: 100%;
+    width: 58px;
+    display: inline-block
+}
+
+.logostandard {
+    height: 50px;
+    width: 60px;
+    display: inline-block;
+    margin-top: 10px
+}
+
+/**************************/
+.white15px {
+    font-size: 15px;
+    color: #fff
+}
+
+/**********************/
+
+
+.bannerfirst {
+    height: 600px;
+    overflow: hidden;
+
+}
+
+.bannerfirst ul {
+    height: 600px;
+    width: 300%;
+    position: relative;
+    list-style: none;;
+}
+
+.bannerfirst li:nth-child(1) {
+    height: 600px;
+    width: 1920px;
+    float: left;
+    background: url("images/banner.jpg") no-repeat;
+}
+
+.bannerfirst li:nth-child(2) {
+    height: 600px;
+    width: 1920px;
+    float: left;
+    background: url("images/banner.jpg")
+}
+
+.bannerfirst li:nth-child(3) {
+    height: 600px;
+    width: 1920px;
+    float: left;
+    background: url("images/banner.jpg")
+}
+
+@keyframes photo1 {
+    0% {
+        margin-left: 0
+    }
+
+    30% {
+        margin-left: 0
+    }
+    35% {
+        margin-left: -100%
+    }
+    65% {
+        margin-left: -100%
+    }
+    70% {
+        margin-left: -200%
+    }
+    100% {
+        margin-left: -200%
+    }
+}
+
+.bannerfirst ul:hover {
+    animation-play-state: paused
+}
+
+.first {
+    animation: photo1 10s ease-in infinite
+}
+
+#column {
+
+}
+
+.font18pxblack {
+    font-size: 19px;
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 700
+}
+
+.font16px {
+    font-size: 16px;
+    color: #999
+}
+
+.font15px {
+    font-size: 15px;
+    color: #999
+}
+
+#content {
+    height: 265px
+}
+
+#content p {
+    text-align: center;
+}
+
+.efficiency {
+    width: 230px;
+    margin-right: 100px;
+    height: 265px;
+    float: left
+}
+
+.stendard {
+    width: 230px;
+    margin-right: 80px;
+    height: 265px;
+    float: left
+}
+
+.social {
+    width: 260px;
+    padding-right: 40px;
+    float: left;
+    border-right: dashed #e2e2e2;
+}
+
+.contactlogo {
+    height: 66px;
+    text-align: center
+}
+
+.data {
+    width: 205px;
+    height: 135px;
+    float: left;
+    margin: 45px 0px 65px 55px
+}
+
+.data li {
+    background-image: url('image/mysp.png');
+    list-style: none;
+    background-position: left -87px;
+    background-repeat: no-repeat;
+}
+
+.data ul {
+    margin: 15px 0
+}
+
+#course {
+    height: 360px;
+    margin-top: 60px
+}
+
+.coursebox {
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+    float: left
+}
+
+.round {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px #999;
+    margin: 15px 15px 15px 0;
+    display: inline-block;
+    float: left;
+    line-height: 70px;
+    background-color: #ffffff
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 35px 30px
+}
+
+.textvertical {
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.textright {
+    float: left
+}
+
+.font15green {
+    font-size: 15px;
+    color: #29b078;
+    font-weight: 700;
+}
+
+.round p {
+    font-size: 15px;
+    color: #29b078;
+    font-weight: 700;
+    text-align: center
+}
+
+#learner {
+    height: 560px;
+    margin-top: 70px
+}
+
+.logobox {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 15px auto
+}
+
+.resume {
+    width: 210px;
+    height: 370px;
+    padding: 0 30px;
+    background-color: #ffffff;
+    margin: 40px 18px 0 18px;
+    box-shadow: 2px 3px 10px #f1f1f1;
+    float: left
+}
+
+.resumeleft {
+    width: 210px;
+    height: 370px;
+    padding: 0 30px;
+    background-color: #ffffff;
+    box-shadow: 2px 3px 10px #f1f1f1;
+    margin-right: 18px;
+    margin-top: 40px;
+    float: left;
+    text-align: justify
+}
+
+.resumeright {
+    width: 210px;
+    height: 370px;
+    padding: 0 30px;
+    background-color: #ffffff;
+    box-shadow: 2px 3px 10px #f1f1f1;
+    margin-left: 18px;
+    margin-top: 40px;
+    float: left;
+}
+
+.page {
+    height: 60px;
+    padding: 21px 0;
+    width: 100%;
+    float: left;
+    text-align: center
+}
+
+.pagebtn1, .pagebtn2, .pagebtn3, .pagebtn4 {
+    width: 13px;
+    height: 13px;
+    box-shadow: 2px 3px 10px #e2e2e2;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.pagebtn1:hover, .pagebtn2:hover, .pagebtn3:hover, .pagebtn4:hover {
+    background-color: green
+}
+
+#partner {
+    height: 325px;
+    margin-top: 70px;
+}
+
+#partner img {
+    vertical-align: middle
+}
+
+#partner span {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 176px;
+    width: 100%
+}
+
+.alibaba, .qiniu {
+    width: 225px;
+    height: 176px;
+    float: left;
+    margin: 0 2px 65px 1px;
+    background-color: #fff
+}
+
+.ronglian, .jinshanyun {
+    width: 250px;
+    height: 176px;
+    float: left;
+    margin: 0 1px 65px 2px;
+    background-color: #fff
+}
+
+.huanxintongxun {
+    width: 240px;
+    height: 176px;
+    float: left;
+    margin: 0 2px 65px 2px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#partnerbox {
+    height: 176px;
+    margin-top: 70px;
+    box-shadow: 1px 1px 10px #f1f1f1
+}
+
+#partnerbox div:hover {
+    box-shadow: 2px 10px 5px #f1f1f1
+}
+
+#link {
+    height: 130px;
+    margin-top: 70px;
+    background-color: #fff;
+}
+
+#link li {
+    float: left;
+    margin: 10px 50px 0 20px;
+    font-size: 14px;
+    color: #999
+}
+
+#link p {
+    font-size: 19px;
+    text-align: center;
+    margin: 18px 0
+}
+
+#link span:hover {
+    border-bottom: 1px solid #26a26f
+}
