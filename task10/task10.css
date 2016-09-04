@@ -1,0 +1,322 @@
+body {
+    font-family: "Microsoft YaHei UI";
+    color: #999999
+}
+
+h4 {
+    font-family: "Microsoft YaHei UI";
+    color: black
+}
+
+footer {
+    background-color: #26a26f;
+    color: #fff;
+    padding-top: 38px;
+}
+
+footer a {
+    color: white;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #26a26f
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0
+}
+
+.head-bgc {
+    background-color: #fff
+}
+
+.navbar-default, .navbar-nav > li > a {
+    color: #fff
+}
+
+#gr span {
+    font-size: 18px
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.efficiency-icon, .weixin, .qq, .weibo, .standard-icon, .friend-icon, .data-icon, .arrow-tab {
+    background: url("images/mysp.png") no-repeat;
+}
+
+.weixin, .qq, .weibo {
+    display: inline-block;
+    margin: 7px 16px 7px 0;
+    height: 25px;
+    width: 25px;
+    float: right
+}
+
+.weixin {
+    background-position-y: 0
+}
+
+.qq {
+    background-position-y: -28px
+}
+
+.weibo {
+    background-position-y: -57px
+}
+
+.efficiency-icon {
+    width: 43px;
+    height: 62px;
+    background-position-y: -136px;
+    margin: 60px auto 33px;
+}
+
+.standard-icon {
+    width: 60px;
+    height: 48px;
+    background-position-y: -207px;
+    margin: 74px auto 33px;
+}
+
+.friend-icon {
+    width: 57px;
+    height: 57px;
+    background-position-y: -259px;
+    margin: 71px auto 27px;
+}
+
+.data-icon {
+    width: 13px;
+    height: 13px;
+    background-position-y: -83px;
+    color: #29b078;
+}
+
+.margin-t-163 span {
+    font-size: 16px;
+}
+
+.margin-t-163 {
+    margin-top: 0
+}
+
+.padding-70 {
+    padding-right: 0
+}
+
+.margin-r-39 {
+    margin-right: 0;
+}
+
+.course-title {
+    margin-top: 4.687vw;
+    margin-bottom: 2.083vw;
+}
+
+.learner-title {
+    margin-top: 5.21vw;
+    margin-bottom: 3.646vw
+}
+
+#jinengshu-navbar-collapse {
+    font-size: 16px
+}
+
+.round-tab {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px #999;
+    margin: 15px 15px 15px 0;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    background-color: #ffffff;
+    color: #29b078;
+    font-size: 18px;
+    vertical-align: middle
+}
+
+.arrow-tab {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 35px 30px;
+    background-position-y: -105px
+}
+
+.resume {
+    width: 270px;
+    height: 370px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    box-shadow: 2px 3px 10px #f1f1f1;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+
+.nav-logo {
+    position: absolute;
+    top: 50%;
+    margin-top: -24.5px;
+    z-index: 17;
+    box-shadow: 2px 2px 20px #29b075
+}
+
+.learner-icon {
+    margin-bottom: 30px;
+}
+
+.learner-text {
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 16px;
+    color: #999
+}
+
+.pagebtn1, .pagebtn2, .pagebtn3, .pagebtn4 {
+    width: 13px;
+    height: 13px;
+    box-shadow: 2px 3px 10px #e2e2e2;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.pagebtn1.active {
+    background-color: #29b078
+}
+
+.partner {
+    text-align: center;
+    background-color: #fff;
+    padding: 60px 30px;
+    display: inline-block;
+    text-align: -webkit-center;
+}
+
+.partner-xs {
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    text-align: -webkit-center;
+}
+
+.box-shadow {
+    box-shadow: 0 1px 2px #999
+}
+
+.margin-b-90 {
+    margin-bottom: 90px
+}
+
+.bg {
+    background-color: #fafafa
+}
+
+.clear-pd > li {
+    float: left;
+    margin: 10px 46px 0 20px
+}
+
+.clear-pd {
+    padding: 0
+}
+
+.foot-left {
+    margin-bottom: 70px
+}
+
+.foot-mid {
+    margin-bottom: 30px;
+}
+
+.padding-l-53 {
+    padding-left: 50px
+}
+
+.foot-a {
+    margin-bottom: 7px;
+    border-bottom: 1px
+}
+
+#frd-lnk, #frd-lnk a {
+    color: #999
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #fff
+}
+
+#frd-lnk a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #29b078
+}
+
+#partner .partner-pd:hover {
+    box-shadow: 1px 1px 10px #999;
+    transition: 0.5s
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #32c086;
+    margin-top: 18px;
+    height: 30px;
+    line-height: 30px
+}
+
+/***********************/
+.col-md-1-5 {
+    width: 20%;
+    float: left;
+}
+
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5 {
+    min-height: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .col-sm-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1-5 {
+        width: 20%;
+        float: left;
+    }
+}

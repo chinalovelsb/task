@@ -1,0 +1,69 @@
+html {font-size: 62.5%}
+a {text-decoration: none}
+ul {list-style: none}
+main {background-color: #fafafa}
+.company-box > p a{color: #000}
+.company-list a {color: #29b078;}
+.company-list-sm a {color: #29b078;}
+main a:hover {color: #ff650e;text-decoration:none}
+main a.active {color: #ff650e;text-decoration: none}
+.round-tab.active {background-color: #f9a372}
+main li:hover .round-tab{background-color: #f9a372}
+.breadcrumb {background-color: transparent; margin-bottom:0 ; padding: 30px 5px;font-size: 16px}
+.breadcrumb > li + li:before {
+    content: "> ";
+    padding: 0;
+    color: #000;
+}
+.round-tab {width: 8px; height: 8px; border: 1px solid #ff650e; border-radius: 50%;
+    display: inline-block;margin-right: 6px}
+
+.company-box {padding-left: 0;padding-right: 0; box-shadow: 0 1px 5px #e6e6e6;margin-bottom:0;
+border-radius: 4px ;background-color: #fff; }
+.company-box p{height: 62px; line-height: 62px; border-bottom: 1px solid #e6e6e6;text-align: center;margin-bottom: 0;
+    font-size: 16px;}
+.company-list {
+    padding-top: 40px;padding-left: 115px;padding-right: 100px}
+.company-list li {margin-bottom: 36px}
+.cpy-content-box {background-color: #fff;padding-bottom: 180px;line-height: 27px;
+    box-shadow: 0 1px 5px #e6e6e6;color: #999;margin-bottom: 230px;border-radius: 5px}
+.cpy-logo {margin-right: 25px ;float: left}
+.cpy-content-top {padding:15px 65px;border-bottom: 1px solid #e6e6e6}
+.cpy-content-bottom {padding:30px 65px;}
+
+.cpy-content-box p {  text-indent: 2em;}
+.company-list-sm {
+    padding-top: 20px;padding-left: 40%;padding-bottom: 10px}
+.company-list-sm li {margin-bottom: 20px}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width:1200px) {.collapse {collapse: hide}
+    .company-list {
+        padding-top: 40px;
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 992px) {.view-set {padding-left: 0;padding-right: 0}  }
+@media   (min-width: 768px) and (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .cpy-content-bottom {
+    padding: 30px 5%;
+        text-align: justify;
+}
+    .cpy-content-top {
+        padding: 15px 5%;
+        text-align: justify;
+    }
+
+
+}
